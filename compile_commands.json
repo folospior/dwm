@@ -1,0 +1,88 @@
+[
+  {
+    "arguments": [
+      "/usr/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.6\"",
+      "-DXINERAMA",
+      "drw.c"
+    ],
+    "directory": "/home/folo/suckless/dwm-6.6",
+    "file": "/home/folo/suckless/dwm-6.6/drw.c"
+  },
+  {
+    "arguments": [
+      "/usr/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-include",
+      "dwm.c",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.6\"",
+      "-DXINERAMA",
+      "config.def.h"
+    ],
+    "directory": "/home/folo/suckless/dwm-6.6",
+    "file": "/home/folo/suckless/dwm-6.6/config.def.h"
+  },
+  {
+    "arguments": [
+      "/usr/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.6\"",
+      "-DXINERAMA",
+      "dwm.c"
+    ],
+    "directory": "/home/folo/suckless/dwm-6.6",
+    "file": "/home/folo/suckless/dwm-6.6/dwm.c"
+  },
+  {
+    "arguments": [
+      "/usr/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.6\"",
+      "-DXINERAMA",
+      "util.c"
+    ],
+    "directory": "/home/folo/suckless/dwm-6.6",
+    "file": "/home/folo/suckless/dwm-6.6/util.c"
+  }
+]
